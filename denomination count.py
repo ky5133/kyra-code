@@ -8,7 +8,7 @@ root.title("Denomination Counter")
 root.configure(bg="light blue")
 root.geometry("650x400")
 
-upload = Image.open("C:\Users\Dinesh Bachani\Downloads\Cash tally.jpg")
+upload = Image.open(r"C:\Users\Dinesh Bachani\Downloads\R.jpg")
 upload = upload.resize((300, 300))
 image = ImageTk.PhotoImage(upload)
 
